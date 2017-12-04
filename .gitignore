@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.pro
+!*.rux
+!*.cho
+
+
+# ...even if they are in subdirectories
+!*/
