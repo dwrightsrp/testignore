@@ -222,6 +222,7 @@ IF( vMonth @= 'BB' );
 	itemskip;
 ENDIF;
 
+#vTime = vMonth | ' ' | vYear;
 vTime = vMonth | ' ' | vYear;
 
 IF( DIMIX(vDim,vTime) = 0 % (DIMIX(vDim,vTime) >= DIMIX(vDim,vCurTime) & vScenario @= 'Actual'));
